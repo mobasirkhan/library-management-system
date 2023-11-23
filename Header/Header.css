@@ -1,0 +1,21 @@
+.header-content{
+    min-height: 75vh;
+    background:  url("../../images/cutm.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    min-height: 45vh;
+    color: black;
+    font-size: 5.2rem;
+}
+.header-text{
+    min-height: 13vh;
+    margin-top: 1.8rem;
+    font-style: bold;
+    color:black;
+    font-size: 2.5rem;
+
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}

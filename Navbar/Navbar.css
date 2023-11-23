@@ -1,0 +1,66 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #4d32a5; /* Change this to your desired background color */
+    padding: 16px 0;
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+    color: #fff; /* Change this to your desired brand color */
+  }
+  
+  .navbar-brand img {
+    width: 80px; /* Adjust this to your logo size */
+    margin-right: 10px;
+    align-items: left;
+  }
+  
+  .navbar-toggler-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .navbar-toggler-btn:focus {
+    outline: none;
+  }
+  
+  .navbar-toggler-btn svg {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-collapse {
+    display: none;
+  }
+  
+  .show-navbar-collapse {
+    display: block;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Change this to your desired link color */
+  }
+  
+  /* Add more styles as needed for your navigation items, links, and other elements */
